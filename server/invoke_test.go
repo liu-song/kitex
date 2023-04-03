@@ -23,10 +23,10 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote/trans/invoke"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/mocks"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote/trans/invoke"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 // TestInvokerCall tests Invoker, call Kitex server just like SDK.

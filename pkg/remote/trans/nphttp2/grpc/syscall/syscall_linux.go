@@ -30,7 +30,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/klog"
 )
 
 // GetCPUTime returns the how much CPU time has passed since the start of this process.

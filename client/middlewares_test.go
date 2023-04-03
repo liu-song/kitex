@@ -24,17 +24,17 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	mocksdiscovery "github.com/cloudwego/kitex/internal/mocks/discovery"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/event"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote/codec/protobuf"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/liu-song/kitex/internal/mocks"
+	mocksdiscovery "github.com/liu-song/kitex/internal/mocks/discovery"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/pkg/event"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/remote/codec/protobuf"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/rpcinfo/remoteinfo"
 )
 
 var (

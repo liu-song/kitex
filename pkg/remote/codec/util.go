@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 const (

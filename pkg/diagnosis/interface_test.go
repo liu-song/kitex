@@ -19,7 +19,7 @@ package diagnosis
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func newMockService() *mockService {

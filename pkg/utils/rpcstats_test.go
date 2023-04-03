@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	STATS "github.com/cloudwego/kitex/pkg/stats"
+	"github.com/liu-song/kitex/internal/stats"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	STATS "github.com/liu-song/kitex/pkg/stats"
 )
 
 // TestCalculateEventCost test calculate time cost of a rpc event

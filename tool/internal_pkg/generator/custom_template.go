@@ -23,8 +23,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/log"
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/liu-song/kitex/tool/internal_pkg/log"
+	"github.com/liu-song/kitex/tool/internal_pkg/util"
 )
 
 var DefaultDelimiters = [2]string{"{{", "}}"}

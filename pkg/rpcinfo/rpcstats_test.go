@@ -21,10 +21,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/liu-song/kitex/internal"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/stats"
 )
 
 func TestRPCStats(t *testing.T) {

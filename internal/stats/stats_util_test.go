@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/stats"
 )
 
 func TestUtil(t *testing.T) {

@@ -39,12 +39,12 @@ import (
 	"golang.org/x/net/http2/hpack"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/pkg/gofunc"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var (

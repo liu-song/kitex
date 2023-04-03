@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
 )
 
 var readMoreTimeout = 5 * time.Millisecond

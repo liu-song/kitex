@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestQueueInvalidCapacity(t *testing.T) {

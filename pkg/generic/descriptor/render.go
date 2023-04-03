@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 type Renderer interface {

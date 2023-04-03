@@ -20,7 +20,7 @@
 package thrift
 
 import (
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 // hyperMarshalEnabled indicates that if there are high priority message codec for current platform.

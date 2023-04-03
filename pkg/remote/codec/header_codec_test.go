@@ -24,16 +24,16 @@ import (
 
 	"github.com/bytedance/gopkg/cloud/metainfo"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/remote/transmeta"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	tm "github.com/cloudwego/kitex/pkg/transmeta"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/liu-song/kitex/internal/mocks"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec/perrors"
+	"github.com/liu-song/kitex/pkg/remote/transmeta"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/rpcinfo/remoteinfo"
+	tm "github.com/liu-song/kitex/pkg/transmeta"
+	"github.com/liu-song/kitex/transport"
 )
 
 var mockPayloadLen = 100

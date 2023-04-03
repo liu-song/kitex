@@ -24,13 +24,13 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	"github.com/liu-song/kitex/pkg/remote/trans"
+	np "github.com/liu-song/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
 )
 
 func newTestRemoteClientOptionWithInStr(s string) *remote.ClientOption {

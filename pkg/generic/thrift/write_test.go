@@ -30,10 +30,10 @@ import (
 	"github.com/jhump/protoreflect/desc/protoparse"
 	"github.com/tidwall/gjson"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/internal/mocks"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/generic/descriptor"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 func Test_writeVoid(t *testing.T) {

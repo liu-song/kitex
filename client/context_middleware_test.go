@@ -22,9 +22,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/internal/mocks"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/endpoint"
 )
 
 func TestContextMiddlewares(t *testing.T) {

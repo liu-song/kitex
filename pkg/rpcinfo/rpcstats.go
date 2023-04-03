@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/liu-song/kitex/pkg/stats"
 )
 
 var (

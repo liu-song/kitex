@@ -26,13 +26,13 @@ import (
 
 	"github.com/bytedance/gopkg/cloud/circuitbreaker"
 
-	"github.com/cloudwego/kitex/internal/test"
-	kd "github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/event"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/test"
+	kd "github.com/liu-song/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/pkg/event"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var (

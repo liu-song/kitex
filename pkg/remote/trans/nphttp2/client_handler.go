@@ -20,11 +20,11 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/protobuf"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec/protobuf"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 type cliTransHandlerFactory struct{}

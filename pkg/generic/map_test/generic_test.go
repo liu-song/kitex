@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/client/genericclient"
-	kt "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/server"
+	"github.com/liu-song/kitex/client/callopt"
+	"github.com/liu-song/kitex/client/genericclient"
+	kt "github.com/liu-song/kitex/internal/mocks/thrift"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/generic"
+	"github.com/liu-song/kitex/pkg/generic/descriptor"
+	"github.com/liu-song/kitex/server"
 )
 
 func TestThrift(t *testing.T) {

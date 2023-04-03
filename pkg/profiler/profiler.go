@@ -29,7 +29,7 @@ import (
 
 	"github.com/google/pprof/profile"
 
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/klog"
 )
 
 type profilerContextKey struct{}

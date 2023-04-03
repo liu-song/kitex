@@ -20,7 +20,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 var (

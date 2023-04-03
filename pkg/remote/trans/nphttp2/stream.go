@@ -20,12 +20,12 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/streaming"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/streaming"
 )
 
 // Streamer Stream creator

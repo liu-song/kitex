@@ -23,20 +23,20 @@ import (
 	"net"
 	"testing"
 
-	mocksklog "github.com/cloudwego/kitex/internal/mocks/klog"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2"
+	mocksklog "github.com/liu-song/kitex/internal/mocks/klog"
+	"github.com/liu-song/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2"
 
 	"github.com/golang/mock/gomock"
 
-	npmocks "github.com/cloudwego/kitex/internal/mocks/netpoll"
-	remote_mocks "github.com/cloudwego/kitex/internal/mocks/remote"
+	npmocks "github.com/liu-song/kitex/internal/mocks/netpoll"
+	remote_mocks "github.com/liu-song/kitex/internal/mocks/remote"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/mocks"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 func TestServerHandlerCall(t *testing.T) {

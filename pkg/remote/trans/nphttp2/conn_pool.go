@@ -27,9 +27,9 @@ import (
 
 	"golang.org/x/sync/singleflight"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc"
 )
 
 var _ remote.LongConnPool = &connPool{}

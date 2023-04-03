@@ -21,12 +21,12 @@ import (
 	"errors"
 	"testing"
 
-	mockthrift "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	mockthrift "github.com/liu-song/kitex/internal/mocks/thrift"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 func TestNewFallbackPolicy(t *testing.T) {

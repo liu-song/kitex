@@ -22,7 +22,7 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var mockAddr0 = "127.0.0.1:33452"

@@ -27,11 +27,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/client/genericclient"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/server"
+	"github.com/liu-song/kitex/client/callopt"
+	"github.com/liu-song/kitex/client/genericclient"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/generic"
+	"github.com/liu-song/kitex/server"
 )
 
 func TestRun(t *testing.T) {

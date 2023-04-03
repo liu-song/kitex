@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestAbsPath(t *testing.T) {

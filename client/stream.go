@@ -19,13 +19,13 @@ package client
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/remotecli"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/streaming"
+	"github.com/liu-song/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/remotecli"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/streaming"
 )
 
 // Streaming client streaming interface for code generate

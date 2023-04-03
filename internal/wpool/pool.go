@@ -27,8 +27,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/profiler"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/profiler"
 )
 
 // Task is the function that the worker will execute.

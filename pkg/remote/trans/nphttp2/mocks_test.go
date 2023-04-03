@@ -30,12 +30,12 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/runtime/protoimpl"
 
-	"github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/stats"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var (
@@ -363,7 +363,7 @@ func newMockRPCInfo() rpcinfo.RPCInfo {
 	method := "method"
 	c := rpcinfo.NewEndpointInfo("", method, nil, nil)
 	endpointTags := map[string]string{}
-	endpointTags[rpcinfo.HTTPURL] = "https://github.com/cloudwego/kitex"
+	endpointTags[rpcinfo.HTTPURL] = "https://github.com/liu-song/kitex"
 	s := rpcinfo.NewEndpointInfo("", method, nil, endpointTags)
 	ink := rpcinfo.NewInvocation("", method)
 	cfg := rpcinfo.NewRPCConfig()

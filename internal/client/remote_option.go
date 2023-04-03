@@ -21,9 +21,9 @@
 package client
 
 import (
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	"github.com/liu-song/kitex/pkg/remote/trans/netpoll"
 )
 
 func newClientRemoteOption() *remote.ClientOption {

@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 func TestClientHandler(t *testing.T) {

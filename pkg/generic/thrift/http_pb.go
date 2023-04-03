@@ -25,8 +25,8 @@ import (
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/dynamic"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/pkg/generic/descriptor"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 // WriteHTTPPbRequest implement of MessageWriter

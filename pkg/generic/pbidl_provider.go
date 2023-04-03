@@ -22,7 +22,7 @@ import (
 
 	"github.com/jhump/protoreflect/desc/protoparse"
 
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 type PbContentProvider struct {

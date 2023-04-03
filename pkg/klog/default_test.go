@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 // test package level functions without format

@@ -25,10 +25,10 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/liu-song/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc"
 )
 
 // NewSvrTransHandlerFactory detection factory construction

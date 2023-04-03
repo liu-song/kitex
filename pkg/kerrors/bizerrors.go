@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/status"
 )
 
 /**

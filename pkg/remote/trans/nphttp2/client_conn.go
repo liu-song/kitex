@@ -25,10 +25,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 type clientConn struct {

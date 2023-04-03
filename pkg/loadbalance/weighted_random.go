@@ -21,7 +21,7 @@ import (
 
 	"github.com/bytedance/gopkg/lang/fastrand"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/discovery"
 )
 
 type weightedRandomPicker struct {

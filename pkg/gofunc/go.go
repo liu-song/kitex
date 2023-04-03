@@ -23,8 +23,8 @@ import (
 
 	"github.com/bytedance/gopkg/util/gopool"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/profiler"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/profiler"
 )
 
 // GoTask is used to spawn a new task.

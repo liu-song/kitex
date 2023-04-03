@@ -19,7 +19,7 @@ package remote
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/pkg/profiler"
+	"github.com/liu-song/kitex/pkg/profiler"
 )
 
 type (

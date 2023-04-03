@@ -21,12 +21,12 @@
 package server
 
 import (
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans/detection"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	"github.com/liu-song/kitex/pkg/remote/trans/detection"
+	"github.com/liu-song/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc"
 )
 
 func newServerRemoteOption() *remote.ServerOption {

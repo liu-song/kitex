@@ -23,7 +23,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/cloudwego/kitex/internal/configutil"
+	"github.com/liu-song/kitex/internal/configutil"
 )
 
 var (

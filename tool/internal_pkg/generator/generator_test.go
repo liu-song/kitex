@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/liu-song/kitex/tool/internal_pkg/util"
 )
 
 func TestConfig_Pack(t *testing.T) {

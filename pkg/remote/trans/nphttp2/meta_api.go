@@ -20,10 +20,10 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
-	"github.com/cloudwego/kitex/pkg/streaming"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/liu-song/kitex/pkg/streaming"
 )
 
 // SetHeader sets the header metadata to be sent from the server to the client.

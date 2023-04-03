@@ -25,15 +25,15 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	stats2 "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	stats2 "github.com/liu-song/kitex/internal/stats"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	"github.com/liu-song/kitex/pkg/remote/trans"
+	np "github.com/liu-song/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/stats"
 )
 
 type cliTransHandlerFactory struct{}

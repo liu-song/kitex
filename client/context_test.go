@@ -20,8 +20,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/client/callopt"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 const (

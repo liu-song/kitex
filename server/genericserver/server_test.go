@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/server"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/generic"
+	"github.com/liu-song/kitex/server"
 )
 
 // TestNewServer tests the creation of a new server

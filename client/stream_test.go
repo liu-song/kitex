@@ -22,16 +22,16 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/internal/mocks"
-	mocksnet "github.com/cloudwego/kitex/internal/mocks/net"
-	mock_remote "github.com/cloudwego/kitex/internal/mocks/remote"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/remotecli"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/streaming"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/client"
+	"github.com/liu-song/kitex/internal/mocks"
+	mocksnet "github.com/liu-song/kitex/internal/mocks/net"
+	mock_remote "github.com/liu-song/kitex/internal/mocks/remote"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/remotecli"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/streaming"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var (

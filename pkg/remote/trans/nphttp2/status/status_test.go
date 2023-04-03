@@ -23,8 +23,8 @@ import (
 
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/codes"
 )
 
 func TestStatus(t *testing.T) {

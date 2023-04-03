@@ -26,8 +26,8 @@ import (
 	net "net"
 	reflect "reflect"
 
-	discovery "github.com/cloudwego/kitex/pkg/discovery"
-	rpcinfo "github.com/cloudwego/kitex/pkg/rpcinfo"
+	discovery "github.com/liu-song/kitex/pkg/discovery"
+	rpcinfo "github.com/liu-song/kitex/pkg/rpcinfo"
 	gomock "github.com/golang/mock/gomock"
 )
 

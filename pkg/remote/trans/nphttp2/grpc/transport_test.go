@@ -40,10 +40,10 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/testutils"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc/testutils"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/status"
 )
 
 type server struct {

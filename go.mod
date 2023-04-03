@@ -1,4 +1,4 @@
-module github.com/cloudwego/kitex
+module github.com/liu-song/kitex
 
 go 1.13
 
@@ -29,4 +29,4 @@ require (
 
 replace github.com/cloudwego/netpoll => github.com/liu-song/netpoll v0.0.5-0.20230403053204-3aba5fbdff18
 
-replace github.com/cloudwego/kitex => ./
+//replace github.com/cloudwego/kitex => github.com/liu-song/kitex v0.1.5-0.20230403024220-f67460306129

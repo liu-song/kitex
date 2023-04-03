@@ -20,7 +20,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 // GRPCConn implement WriteFrame and ReadFrame

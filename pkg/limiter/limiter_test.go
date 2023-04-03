@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/limit"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/limit"
 )
 
 func TestLimiterWrapper(t *testing.T) {

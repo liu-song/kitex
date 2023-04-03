@@ -21,7 +21,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestTransError(t *testing.T) {

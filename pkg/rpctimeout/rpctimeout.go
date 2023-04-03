@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
+	"github.com/liu-song/kitex/pkg/endpoint"
 )
 
 type timeoutAdjustKeyType int

@@ -21,10 +21,10 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/cloudwego/kitex/client"
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/client"
+	"github.com/liu-song/kitex/client/callopt"
+	"github.com/liu-song/kitex/pkg/generic"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
 )
 
 var _ Client = &genericServiceClient{}

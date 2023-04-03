@@ -27,12 +27,12 @@ import (
 	"github.com/cloudwego/netpoll"
 	"github.com/cloudwego/netpoll/mux"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	np "github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/remote/transmeta"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec"
+	np "github.com/liu-song/kitex/pkg/remote/trans/netpoll"
+	"github.com/liu-song/kitex/pkg/remote/transmeta"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 // ErrConnClosed .

@@ -21,7 +21,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 // NewDialer returns the default go net dialer.

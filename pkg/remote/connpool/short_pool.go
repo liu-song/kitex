@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 var _ remote.ConnPool = &ShortPool{}

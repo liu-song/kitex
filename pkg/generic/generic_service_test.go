@@ -24,13 +24,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	mocks "github.com/cloudwego/kitex/internal/mocks/generic"
-	"github.com/cloudwego/kitex/internal/test"
-	gthrift "github.com/cloudwego/kitex/pkg/generic/thrift"
-	"github.com/cloudwego/kitex/pkg/remote"
-	codecThrift "github.com/cloudwego/kitex/pkg/remote/codec/thrift"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	mocks "github.com/liu-song/kitex/internal/mocks/generic"
+	"github.com/liu-song/kitex/internal/test"
+	gthrift "github.com/liu-song/kitex/pkg/generic/thrift"
+	"github.com/liu-song/kitex/pkg/remote"
+	codecThrift "github.com/liu-song/kitex/pkg/remote/codec/thrift"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 func TestGenericService(t *testing.T) {

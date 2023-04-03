@@ -19,9 +19,9 @@ package rpcinfo_test
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/transport"
 )
 
 func TestRPCConfig(t *testing.T) {

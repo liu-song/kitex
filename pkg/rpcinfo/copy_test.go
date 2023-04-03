@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestFreezeRPCInfo(t *testing.T) {

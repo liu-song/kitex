@@ -17,7 +17,7 @@
 package generic
 
 import (
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 // PbDescriptorProvider provide service descriptor

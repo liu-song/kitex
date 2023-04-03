@@ -19,7 +19,7 @@ package stats
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestDefineNewEvent(t *testing.T) {

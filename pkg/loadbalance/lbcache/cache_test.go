@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	mocksloadbalance "github.com/cloudwego/kitex/internal/mocks/loadbalance"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/loadbalance"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	mocksloadbalance "github.com/liu-song/kitex/internal/mocks/loadbalance"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/loadbalance"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 var defaultOptions = Options{

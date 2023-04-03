@@ -19,8 +19,8 @@ package invoke
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/utils"
 )
 
 // TestNewMessage tests the NewMessage function.

@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	mocksnet "github.com/cloudwego/kitex/internal/mocks/net"
+	mocksnet "github.com/liu-song/kitex/internal/mocks/net"
 
-	mocksremote "github.com/cloudwego/kitex/internal/mocks/remote"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
+	mocksremote "github.com/liu-song/kitex/internal/mocks/remote"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 func TestShortPool(t *testing.T) {

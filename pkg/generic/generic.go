@@ -20,9 +20,9 @@ package generic
 import (
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/thrift"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/codec/thrift"
+	"github.com/liu-song/kitex/pkg/serviceinfo"
 )
 
 // Generic ...

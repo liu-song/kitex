@@ -24,10 +24,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/connpool"
-	"github.com/cloudwego/kitex/pkg/warmup"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/remote/connpool"
+	"github.com/liu-song/kitex/pkg/warmup"
 )
 
 var errReject = errors.New("rejected")

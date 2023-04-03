@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/liu-song/kitex/tool/internal_pkg/util"
 
 	"github.com/cloudwego/thriftgo/generator/golang"
 	"github.com/cloudwego/thriftgo/generator/golang/templates"
@@ -33,7 +33,7 @@ import (
 	"github.com/cloudwego/thriftgo/parser"
 	"github.com/cloudwego/thriftgo/plugin"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/generator"
+	"github.com/liu-song/kitex/tool/internal_pkg/generator"
 )
 
 var extraTemplates []string

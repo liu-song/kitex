@@ -24,8 +24,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/tidwall/gjson"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
+	"github.com/liu-song/kitex/pkg/generic/descriptor"
+	"github.com/liu-song/kitex/pkg/remote/codec/perrors"
 )
 
 // NewWriteJSON build WriteJSON according to ServiceDescriptor

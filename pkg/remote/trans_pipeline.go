@@ -20,7 +20,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/kerrors"
 )
 
 // BoundHandler is used to abstract the bound handler.

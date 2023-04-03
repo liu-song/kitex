@@ -20,7 +20,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/liu-song/kitex/pkg/generic/proto"
 )
 
 // HTTPMapping http mapping annotation

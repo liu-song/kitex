@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/klog"
 )
 
 var once sync.Once

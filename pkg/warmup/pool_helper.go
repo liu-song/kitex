@@ -21,8 +21,8 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/liu-song/kitex/pkg/klog"
+	"github.com/liu-song/kitex/pkg/remote"
 )
 
 // PoolHelper is trivial implementation to do warm-ups for connection pools.

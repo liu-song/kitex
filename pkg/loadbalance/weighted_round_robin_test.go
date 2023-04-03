@@ -21,8 +21,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/discovery"
 )
 
 func TestRoundRobinPicker(t *testing.T) {

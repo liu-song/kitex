@@ -27,7 +27,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/log"
+	"github.com/liu-song/kitex/tool/internal_pkg/log"
 )
 
 // PluginName .

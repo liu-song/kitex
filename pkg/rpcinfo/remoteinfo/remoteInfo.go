@@ -21,10 +21,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/cloudwego/kitex/internal"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/liu-song/kitex/internal"
+	"github.com/liu-song/kitex/pkg/discovery"
+	"github.com/liu-song/kitex/pkg/kerrors"
+	"github.com/liu-song/kitex/pkg/rpcinfo"
 )
 
 // RemoteInfo implements a rpcinfo.EndpointInfo with mutable address and connection.

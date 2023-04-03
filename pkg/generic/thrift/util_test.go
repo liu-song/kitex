@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
+	"github.com/liu-song/kitex/internal/test"
+	"github.com/liu-song/kitex/pkg/generic/descriptor"
 )
 
 func TestSplitType(t *testing.T) {

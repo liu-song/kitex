@@ -23,7 +23,7 @@ import (
 	"github.com/cloudwego/netpoll"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
+	"github.com/liu-song/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
 )
 
 type framer struct {

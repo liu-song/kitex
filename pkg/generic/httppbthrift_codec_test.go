@@ -25,7 +25,7 @@ import (
 
 	"github.com/bytedance/mockey"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/liu-song/kitex/internal/test"
 )
 
 func TestFromHTTPPbRequest(t *testing.T) {
