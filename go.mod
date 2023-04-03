@@ -24,3 +24,7 @@ require (
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+//replace github.com/liu-song/netpoll => github.com/cloudwego/netpoll v0.0.5-0.20230323045452-9999a5d3271c
+
+replace github.com/cloudwego/netpoll => github.com/liu-song/netpoll v0.0.5-0.20230323045452-9999a5d3271c
