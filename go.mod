@@ -27,4 +27,4 @@ require (
 
 //replace github.com/liu-song/netpoll => github.com/cloudwego/netpoll v0.0.5-0.20230323045452-9999a5d3271c
 
-replace github.com/cloudwego/netpoll => github.com/liu-song/netpoll v0.0.5-0.20230323045452-9999a5d3271c
+replace github.com/cloudwego/netpoll => github.com/liu-song/netpoll v0.0.5-0.20230403053204-3aba5fbdff18
